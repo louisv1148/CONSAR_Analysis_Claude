@@ -1,0 +1,10 @@
+{
+  "sources": {
+    "local_processing": "/Users/lvc/CascadeProjects/Consar_report_processing/merged_consar_data_2019_2025.json",
+    "github_release": "https://api.github.com/repos/louisv1148/Consar_report_processing/releases/latest"
+  },
+  "target_file": "data/merged_consar_data_2019_2025.json",
+  "metadata_file": "data/data_metadata.json",
+  "auto_analyze": true,
+  "sync_log": "data/sync_log.json"
+}
