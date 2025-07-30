@@ -86,10 +86,20 @@ def get_available_periods(data):
     return sorted(periods, reverse=True)
 
 def format_number_with_commas(value):
-    """Format numbers with commas and no decimals."""
+    """Format numbers with commas and no decimals, converting from thousands to millions."""
     if pd.isna(value) or value == 0:
         return "0"
-    return f"{value:,.0f}"
+    # Convert from thousands to millions by dividing by 1000
+    value_millions = value / 1000
+    return f"{value_millions:,.0f}"
+
+def convert_to_millions_for_download(df):
+    """Convert numeric columns from thousands to millions for download data."""
+    df_millions = df.copy()
+    for col in df_millions.columns:
+        if col != 'Afore' and 'as %' not in col:
+            df_millions[col] = df_millions[col] / 1000
+    return df_millions
 
 def format_percentage_with_commas(value):
     """Format percentages with commas and no decimals."""
@@ -138,7 +148,7 @@ def main():
         help="Choose the period for analysis"
     )
     
-    # Note: All tables are in USD millions
+    # Note: All tables are converted from thousands to millions for display
     
     # Table type selection
     table_types = st.sidebar.multiselect(
@@ -179,7 +189,7 @@ def main():
             if "Mutual Funds" in table_types:
                 st.markdown('<div class="sub-header">📈 Mutual Funds</div>', unsafe_allow_html=True)
                 
-                # Note: Professional tables are always in USD millions
+                # Note: Values converted from thousands to millions for display
                 try:
                     # Create custom analyzer for the selected period
                     analyzer_pro = ProfessionalAUMAnalyzer('data/merged_consar_data_2019_2025.json')
@@ -200,14 +210,15 @@ def main():
                         with st.expander("AUM Breakdown (USD millions)", expanded=True):
                             st.dataframe(aum_df_formatted, use_container_width=True)
                             
-                            # Download links (use original unformatted data)
+                            # Download links (convert to millions for download)
                             st.markdown("**Download Options:**")
                             col1, col2 = st.columns(2)
                             with col1:
-                                csv_link = create_download_link(aum_df, f"mutual_funds_{selected_period.replace('-', '_')}", "csv")
+                                aum_df_millions = convert_to_millions_for_download(aum_df)
+                                csv_link = create_download_link(aum_df_millions, f"mutual_funds_{selected_period.replace('-', '_')}", "csv")
                                 st.markdown(csv_link, unsafe_allow_html=True)
                             with col2:
-                                excel_link = create_download_link(aum_df, f"mutual_funds_{selected_period.replace('-', '_')}", "excel")
+                                excel_link = create_download_link(aum_df_millions, f"mutual_funds_{selected_period.replace('-', '_')}", "excel")
                                 st.markdown(excel_link, unsafe_allow_html=True)
                     else:
                         st.error("No mutual funds data available for this period.")
@@ -237,14 +248,15 @@ def main():
                         with st.expander("AUM Breakdown (USD millions)", expanded=True):
                             st.dataframe(tp_df_formatted, use_container_width=True)
                         
-                            # Download links (use original unformatted data)
+                            # Download links (convert to millions for download)
                             st.markdown("**Download Options:**")
                             col1, col2 = st.columns(2)
                             with col1:
-                                csv_link = create_download_link(tp_df, f"third_party_mandates_{selected_period.replace('-', '_')}", "csv")
+                                tp_df_millions = convert_to_millions_for_download(tp_df)
+                                csv_link = create_download_link(tp_df_millions, f"third_party_mandates_{selected_period.replace('-', '_')}", "csv")
                                 st.markdown(csv_link, unsafe_allow_html=True)
                             with col2:
-                                excel_link = create_download_link(tp_df, f"third_party_mandates_{selected_period.replace('-', '_')}", "excel")
+                                excel_link = create_download_link(tp_df_millions, f"third_party_mandates_{selected_period.replace('-', '_')}", "excel")
                                 st.markdown(excel_link, unsafe_allow_html=True)
                     else:
                         st.error("No third party mandates data available for this period.")
@@ -274,14 +286,15 @@ def main():
                         with st.expander("AUM Breakdown (USD millions)", expanded=True):
                             st.dataframe(active_df_formatted, use_container_width=True)
                         
-                            # Download links (use original unformatted data)
+                            # Download links (convert to millions for download)
                             st.markdown("**Download Options:**")
                             col1, col2 = st.columns(2)
                             with col1:
-                                csv_link = create_download_link(active_df, f"total_active_management_{selected_period.replace('-', '_')}", "csv")
+                                active_df_millions = convert_to_millions_for_download(active_df)
+                                csv_link = create_download_link(active_df_millions, f"total_active_management_{selected_period.replace('-', '_')}", "csv")
                                 st.markdown(csv_link, unsafe_allow_html=True)
                             with col2:
-                                excel_link = create_download_link(active_df, f"total_active_management_{selected_period.replace('-', '_')}", "excel")
+                                excel_link = create_download_link(active_df_millions, f"total_active_management_{selected_period.replace('-', '_')}", "excel")
                                 st.markdown(excel_link, unsafe_allow_html=True)
                     else:
                         st.error("No total active management data available for this period.")
