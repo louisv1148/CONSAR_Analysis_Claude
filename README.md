@@ -1,6 +1,11 @@
 # CONSAR Data Analysis
 
-A comprehensive analysis tool for Mexican pension fund (CONSAR) data with plans for a web-based UI.
+A comprehensive analysis tool for Mexican pension fund (CONSAR) data with web-based UI.
+
+## 🎯 **Database Status: DEFINITIVE VERSION** 
+**📊 Production-ready database with verified consistency and complete USD coverage**  
+**📁 File**: `data/merged_consar_data_2019_2025.json` | **🏷️ Tag**: `v1.0-definitive`  
+**📋 Details**: See [DATABASE_STATUS.md](DATABASE_STATUS.md) for full documentation
 
 ## Overview
 
