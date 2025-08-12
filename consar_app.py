@@ -22,6 +22,7 @@ sys.path.append('.')
 
 # Import existing analyzers
 from generate_professional_tables import ProfessionalAUMAnalyzer
+from growth_analysis import GrowthAnalyzer
 
 # Configure Streamlit page
 st.set_page_config(
@@ -150,17 +151,29 @@ def main():
     
     # Note: All tables are converted from thousands to millions for display
     
-    # Table type selection
-    table_types = st.sidebar.multiselect(
-        "Select Tables to Generate",
-        options=[
-            "Mutual Funds",
-            "Third Party Mandates",
-            "Total Active Management"
-        ],
-        default=["Mutual Funds"],
-        help="Choose which tables to display"
+    # Analysis type selection
+    analysis_type = st.sidebar.radio(
+        "Analysis Type",
+        options=["Current Period Analysis", "Growth Analysis"],
+        index=0,
+        help="Choose between current period data or growth analysis across time periods"
     )
+    
+    if analysis_type == "Current Period Analysis":
+        # Table type selection
+        table_types = st.sidebar.multiselect(
+            "Select Tables to Generate",
+            options=[
+                "Mutual Funds",
+                "Third Party Mandates", 
+                "Total Active Management"
+            ],
+            default=["Mutual Funds"],
+            help="Choose which tables to display"
+        )
+    else:
+        # Growth analysis doesn't need table selection - shows all categories
+        table_types = ["Growth Analysis"]
     
     # Export options
     st.sidebar.markdown("### 📥 Export Options")
@@ -185,122 +198,241 @@ def main():
         
         # Generate and display tables
         try:
-            # Mutual Funds
-            if "Mutual Funds" in table_types:
-                st.markdown('<div class="sub-header">📈 Mutual Funds</div>', unsafe_allow_html=True)
+            if analysis_type == "Growth Analysis":
+                # Growth Analysis Section
+                st.markdown('<div class="sub-header">📈 Active Management Growth Analysis</div>', unsafe_allow_html=True)
+                st.markdown("Comparing mutual funds, third party mandates, and total active management across different time periods.")
                 
-                # Note: Values converted from thousands to millions for display
-                try:
-                    # Create custom analyzer for the selected period
-                    analyzer_pro = ProfessionalAUMAnalyzer('data/merged_consar_data_2019_2025.json')
-                    analyzer_pro.load_data()
-                    
-                    # Create AUM table for selected period
-                    aum_df = analyzer_pro.create_aum_table(selected_period)
-                    
-                    if aum_df is not None:
-                        # Format numbers in the dataframe
-                        aum_df_formatted = aum_df.copy()
-                        for col in aum_df_formatted.columns:
-                            if col != 'Afore' and 'as %' not in col:
-                                aum_df_formatted[col] = aum_df_formatted[col].apply(format_number_with_commas)
-                            elif 'as %' in col:
-                                aum_df_formatted[col] = aum_df_formatted[col].apply(format_percentage_with_commas)
+                with st.spinner("Calculating growth rates..."):
+                    try:
+                        analyzer_growth = GrowthAnalyzer('data/merged_consar_data_2019_2025.json')
+                        growth_df = analyzer_growth.run_analysis()
                         
-                        with st.expander("AUM Breakdown (USD millions)", expanded=True):
-                            st.dataframe(aum_df_formatted, use_container_width=True)
+                        if growth_df is not None and not growth_df.empty:
+                            # Current period info
+                            current_period = growth_df['current_period'].iloc[0]
+                            st.info(f"📊 **Current Period**: {current_period}")
                             
-                            # Download links (convert to millions for download)
-                            st.markdown("**Download Options:**")
-                            col1, col2 = st.columns(2)
-                            with col1:
-                                aum_df_millions = convert_to_millions_for_download(aum_df)
-                                csv_link = create_download_link(aum_df_millions, f"mutual_funds_{selected_period.replace('-', '_')}", "csv")
-                                st.markdown(csv_link, unsafe_allow_html=True)
-                            with col2:
-                                excel_link = create_download_link(aum_df_millions, f"mutual_funds_{selected_period.replace('-', '_')}", "excel")
-                                st.markdown(excel_link, unsafe_allow_html=True)
-                    else:
-                        st.error("No mutual funds data available for this period.")
+                            # Industry totals for each period
+                            periods = growth_df['Period'].unique()
+                            
+                            # Create tabs for different time periods
+                            tab_cols = st.tabs([f"{period} Growth" for period in ['YTD', '1Y', '3Y', '5Y'] if period in periods])
+                            
+                            for i, period in enumerate(['YTD', '1Y', '3Y', '5Y']):
+                                if period in periods:
+                                    with tab_cols[i]:
+                                        period_df = growth_df[growth_df['Period'] == period].copy()
+                                        
+                                        # Industry totals
+                                        st.markdown(f"#### 🏢 Industry Totals - {period}")
+                                        
+                                        total_mf_current = period_df['mutual_funds_current'].sum()
+                                        total_mf_historical = period_df['mutual_funds_historical'].sum()
+                                        total_tp_current = period_df['third_party_current'].sum()
+                                        total_tp_historical = period_df['third_party_historical'].sum()
+                                        total_active_current = period_df['total_active_current'].sum()
+                                        total_active_historical = period_df['total_active_historical'].sum()
+                                        
+                                        # Calculate industry growth rates
+                                        mf_growth = ((total_mf_current - total_mf_historical) / total_mf_historical * 100) if total_mf_historical > 0 else 0
+                                        tp_growth = ((total_tp_current - total_tp_historical) / total_tp_historical * 100) if total_tp_historical > 0 else 0
+                                        active_growth = ((total_active_current - total_active_historical) / total_active_historical * 100) if total_active_historical > 0 else 0
+                                        
+                                        col1, col2, col3 = st.columns(3)
+                                        
+                                        with col1:
+                                            st.metric(
+                                                "💰 Mutual Funds", 
+                                                f"${total_mf_current/1e6:,.0f}M",
+                                                f"{mf_growth:+.1f}%"
+                                            )
+                                        
+                                        with col2:
+                                            st.metric(
+                                                "🤝 Third Party", 
+                                                f"${total_tp_current/1e6:,.0f}M",
+                                                f"{tp_growth:+.1f}%"
+                                            )
+                                        
+                                        with col3:
+                                            st.metric(
+                                                "📊 Total Active", 
+                                                f"${total_active_current/1e6:,.0f}M",
+                                                f"{active_growth:+.1f}%"
+                                            )
+                                        
+                                        # Afore-level data
+                                        st.markdown(f"#### 🏦 Afore Performance - {period}")
+                                        
+                                        # Create display dataframe
+                                        display_df = period_df[['Afore', 'mutual_funds_current', 'mutual_funds_growth_rate', 
+                                                              'third_party_current', 'third_party_growth_rate',
+                                                              'total_active_current', 'total_active_growth_rate']].copy()
+                                        
+                                        # Rename columns for display
+                                        display_df.columns = ['Afore', 'MF Current (USD)', 'MF Growth %', 
+                                                            'TP Current (USD)', 'TP Growth %', 
+                                                            'Total Current (USD)', 'Total Growth %']
+                                        
+                                        # Format the display dataframe
+                                        for col in ['MF Current (USD)', 'TP Current (USD)', 'Total Current (USD)']:
+                                            display_df[col] = display_df[col].apply(lambda x: f"${x/1e6:,.0f}M" if x > 0 else "$0")
+                                        
+                                        for col in ['MF Growth %', 'TP Growth %', 'Total Growth %']:
+                                            display_df[col] = display_df[col].apply(lambda x: "NEW" if x == float('inf') else f"{x:+.1f}%" if pd.notna(x) else "0.0%")
+                                        
+                                        # Sort by total active management growth
+                                        period_df_sorted = period_df.sort_values('total_active_growth_rate', ascending=False)
+                                        display_df_sorted = display_df.loc[period_df_sorted.index]
+                                        
+                                        st.dataframe(display_df_sorted, use_container_width=True, hide_index=True)
+                                        
+                                        # Download option for this period
+                                        st.markdown("**Download:**")
+                                        csv_data = period_df.to_csv(index=False)
+                                        st.download_button(
+                                            f"📥 Download {period} Growth Data (CSV)",
+                                            csv_data,
+                                            f"growth_analysis_{period}_{current_period.replace('-', '_')}.csv",
+                                            "text/csv"
+                                        )
+                            
+                            # Overall download
+                            st.markdown("### 📥 Complete Growth Analysis")
+                            csv_data_all = growth_df.to_csv(index=False)
+                            st.download_button(
+                                "📥 Download Complete Growth Analysis (CSV)",
+                                csv_data_all,
+                                f"complete_growth_analysis_{current_period.replace('-', '_')}.csv",
+                                "text/csv"
+                            )
                         
-                except Exception as e:
-                    st.error(f"Error generating mutual funds table: {str(e)}")
+                        else:
+                            st.error("No growth data could be calculated.")
+                            
+                    except Exception as e:
+                        st.error(f"Error in growth analysis: {str(e)}")
+                        st.exception(e)
             
-            # Third Party Mandates
-            if "Third Party Mandates" in table_types:
-                st.markdown('<div class="sub-header">🤝 Third Party Mandates</div>', unsafe_allow_html=True)
-                
-                try:
-                    analyzer_pro = ProfessionalAUMAnalyzer('data/merged_consar_data_2019_2025.json')
-                    analyzer_pro.load_data()
+            else:
+                # Current Period Analysis (existing code)
+                # Mutual Funds
+                if "Mutual Funds" in table_types:
+                    st.markdown('<div class="sub-header">📈 Mutual Funds</div>', unsafe_allow_html=True)
                     
-                    tp_df = analyzer_pro.create_third_party_mandates_table(selected_period)
-                    
-                    if tp_df is not None:
-                        # Format numbers in the dataframe
-                        tp_df_formatted = tp_df.copy()
-                        for col in tp_df_formatted.columns:
-                            if col != 'Afore' and 'as %' not in col:
-                                tp_df_formatted[col] = tp_df_formatted[col].apply(format_number_with_commas)
-                            elif 'as %' in col:
-                                tp_df_formatted[col] = tp_df_formatted[col].apply(format_percentage_with_commas)
+                    # Note: Values converted from thousands to millions for display
+                    try:
+                        # Create custom analyzer for the selected period
+                        analyzer_pro = ProfessionalAUMAnalyzer('data/merged_consar_data_2019_2025.json')
+                        analyzer_pro.load_data()
                         
-                        with st.expander("AUM Breakdown (USD millions)", expanded=True):
-                            st.dataframe(tp_df_formatted, use_container_width=True)
+                        # Create AUM table for selected period
+                        aum_df = analyzer_pro.create_aum_table(selected_period)
                         
-                            # Download links (convert to millions for download)
-                            st.markdown("**Download Options:**")
-                            col1, col2 = st.columns(2)
-                            with col1:
-                                tp_df_millions = convert_to_millions_for_download(tp_df)
-                                csv_link = create_download_link(tp_df_millions, f"third_party_mandates_{selected_period.replace('-', '_')}", "csv")
-                                st.markdown(csv_link, unsafe_allow_html=True)
-                            with col2:
-                                excel_link = create_download_link(tp_df_millions, f"third_party_mandates_{selected_period.replace('-', '_')}", "excel")
-                                st.markdown(excel_link, unsafe_allow_html=True)
-                    else:
-                        st.error("No third party mandates data available for this period.")
-                        
-                except Exception as e:
-                    st.error(f"Error generating third party mandates table: {str(e)}")
+                        if aum_df is not None:
+                            # Format numbers in the dataframe
+                            aum_df_formatted = aum_df.copy()
+                            for col in aum_df_formatted.columns:
+                                if col != 'Afore' and 'as %' not in col:
+                                    aum_df_formatted[col] = aum_df_formatted[col].apply(format_number_with_commas)
+                                elif 'as %' in col:
+                                    aum_df_formatted[col] = aum_df_formatted[col].apply(format_percentage_with_commas)
+                            
+                            with st.expander("AUM Breakdown (USD millions)", expanded=True):
+                                st.dataframe(aum_df_formatted, use_container_width=True)
+                                
+                                # Download links (convert to millions for download)
+                                st.markdown("**Download Options:**")
+                                col1, col2 = st.columns(2)
+                                with col1:
+                                    aum_df_millions = convert_to_millions_for_download(aum_df)
+                                    csv_link = create_download_link(aum_df_millions, f"mutual_funds_{selected_period.replace('-', '_')}", "csv")
+                                    st.markdown(csv_link, unsafe_allow_html=True)
+                                with col2:
+                                    excel_link = create_download_link(aum_df_millions, f"mutual_funds_{selected_period.replace('-', '_')}", "excel")
+                                    st.markdown(excel_link, unsafe_allow_html=True)
+                        else:
+                            st.error("No mutual funds data available for this period.")
+                            
+                    except Exception as e:
+                        st.error(f"Error generating mutual funds table: {str(e)}")
             
-            # Total Active Management
-            if "Total Active Management" in table_types:
-                st.markdown('<div class="sub-header">📊 Total Active Management</div>', unsafe_allow_html=True)
+                # Third Party Mandates
+                if "Third Party Mandates" in table_types:
+                    st.markdown('<div class="sub-header">🤝 Third Party Mandates</div>', unsafe_allow_html=True)
+                    
+                    try:
+                        analyzer_pro = ProfessionalAUMAnalyzer('data/merged_consar_data_2019_2025.json')
+                        analyzer_pro.load_data()
+                        
+                        tp_df = analyzer_pro.create_third_party_mandates_table(selected_period)
+                        
+                        if tp_df is not None:
+                            # Format numbers in the dataframe
+                            tp_df_formatted = tp_df.copy()
+                            for col in tp_df_formatted.columns:
+                                if col != 'Afore' and 'as %' not in col:
+                                    tp_df_formatted[col] = tp_df_formatted[col].apply(format_number_with_commas)
+                                elif 'as %' in col:
+                                    tp_df_formatted[col] = tp_df_formatted[col].apply(format_percentage_with_commas)
+                            
+                            with st.expander("AUM Breakdown (USD millions)", expanded=True):
+                                st.dataframe(tp_df_formatted, use_container_width=True)
+                            
+                                # Download links (convert to millions for download)
+                                st.markdown("**Download Options:**")
+                                col1, col2 = st.columns(2)
+                                with col1:
+                                    tp_df_millions = convert_to_millions_for_download(tp_df)
+                                    csv_link = create_download_link(tp_df_millions, f"third_party_mandates_{selected_period.replace('-', '_')}", "csv")
+                                    st.markdown(csv_link, unsafe_allow_html=True)
+                                with col2:
+                                    excel_link = create_download_link(tp_df_millions, f"third_party_mandates_{selected_period.replace('-', '_')}", "excel")
+                                    st.markdown(excel_link, unsafe_allow_html=True)
+                        else:
+                            st.error("No third party mandates data available for this period.")
+                            
+                    except Exception as e:
+                        st.error(f"Error generating third party mandates table: {str(e)}")
                 
-                try:
-                    analyzer_pro = ProfessionalAUMAnalyzer('data/merged_consar_data_2019_2025.json')
-                    analyzer_pro.load_data()
+                # Total Active Management
+                if "Total Active Management" in table_types:
+                    st.markdown('<div class="sub-header">📊 Total Active Management</div>', unsafe_allow_html=True)
                     
-                    active_df = analyzer_pro.create_total_active_management_table(selected_period)
-                    
-                    if active_df is not None:
-                        # Format numbers in the dataframe
-                        active_df_formatted = active_df.copy()
-                        for col in active_df_formatted.columns:
-                            if col != 'Afore' and 'as %' not in col:
-                                active_df_formatted[col] = active_df_formatted[col].apply(format_number_with_commas)
-                            elif 'as %' in col:
-                                active_df_formatted[col] = active_df_formatted[col].apply(format_percentage_with_commas)
+                    try:
+                        analyzer_pro = ProfessionalAUMAnalyzer('data/merged_consar_data_2019_2025.json')
+                        analyzer_pro.load_data()
                         
-                        with st.expander("AUM Breakdown (USD millions)", expanded=True):
-                            st.dataframe(active_df_formatted, use_container_width=True)
+                        active_df = analyzer_pro.create_total_active_management_table(selected_period)
                         
-                            # Download links (convert to millions for download)
-                            st.markdown("**Download Options:**")
-                            col1, col2 = st.columns(2)
-                            with col1:
-                                active_df_millions = convert_to_millions_for_download(active_df)
-                                csv_link = create_download_link(active_df_millions, f"total_active_management_{selected_period.replace('-', '_')}", "csv")
-                                st.markdown(csv_link, unsafe_allow_html=True)
-                            with col2:
-                                excel_link = create_download_link(active_df_millions, f"total_active_management_{selected_period.replace('-', '_')}", "excel")
-                                st.markdown(excel_link, unsafe_allow_html=True)
-                    else:
-                        st.error("No total active management data available for this period.")
-                        
-                except Exception as e:
-                    st.error(f"Error generating total active management table: {str(e)}")
+                        if active_df is not None:
+                            # Format numbers in the dataframe
+                            active_df_formatted = active_df.copy()
+                            for col in active_df_formatted.columns:
+                                if col != 'Afore' and 'as %' not in col:
+                                    active_df_formatted[col] = active_df_formatted[col].apply(format_number_with_commas)
+                                elif 'as %' in col:
+                                    active_df_formatted[col] = active_df_formatted[col].apply(format_percentage_with_commas)
+                            
+                            with st.expander("AUM Breakdown (USD millions)", expanded=True):
+                                st.dataframe(active_df_formatted, use_container_width=True)
+                            
+                                # Download links (convert to millions for download)
+                                st.markdown("**Download Options:**")
+                                col1, col2 = st.columns(2)
+                                with col1:
+                                    active_df_millions = convert_to_millions_for_download(active_df)
+                                    csv_link = create_download_link(active_df_millions, f"total_active_management_{selected_period.replace('-', '_')}", "csv")
+                                    st.markdown(csv_link, unsafe_allow_html=True)
+                                with col2:
+                                    excel_link = create_download_link(active_df_millions, f"total_active_management_{selected_period.replace('-', '_')}", "excel")
+                                    st.markdown(excel_link, unsafe_allow_html=True)
+                        else:
+                            st.error("No total active management data available for this period.")
+                            
+                    except Exception as e:
+                        st.error(f"Error generating total active management table: {str(e)}")
                     
         except Exception as e:
             st.error(f"An error occurred: {str(e)}")
