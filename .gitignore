@@ -1,0 +1,14 @@
+# CONSAR Monitor
+.env
+data/monitor_state.json
+data/pending_approvals/
+data/backups/
+temp_processing/
+logs/
+__pycache__/
+*.pyc
+
+# Existing entries
+venv/
+*.log
+.DS_Store
