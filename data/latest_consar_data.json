@@ -1,0 +1,3362 @@
+[
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 1226797889.00358,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 62561405.9
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 1254680937.45895,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 64721648.7
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 42054514.21065,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2144599.01
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 42755636.31916,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2205513.12
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 176053487.74297,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 8977969.24
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 180544826.24821,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 9313251.26
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 55224525.40114,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2816212.83
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 56722265.85767,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2925969.83
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 39317815.24238,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2005039.15
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 39896126.39731,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2058007.74
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 58736208.39308,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2995293.53
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 58148471.93051,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2999539.45
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 64205084.51439,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 3274182.64
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 65745644.81992,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3391433.15
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 86661751.32704,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 4419375.88
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 88954645.6126,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 4588649.71
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 248356309.12789,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 12665101.56
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 256701118.27123,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 13241708.79
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 214936307.02581,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 10960825.47
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 221011957.16669,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 11400713.78
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 241251886.01823,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 12302806.6
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 244200244.83565,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 12596861.87
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 6238876.07127,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 318155.8
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 6238876.07127,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 321827.11
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 95791769.73645,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 4884967.48
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 96687682.06402,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 4987551.82
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 13097258.24316,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 667903.73
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 13097258.24316,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 675610.92
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 605653356.91431,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 30885711.36
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 632876148.1463,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 32646377.67
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 46586054.71092,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2375688.04
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 48432543.47855,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2498351.55
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 129648973.47541,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 6611538.97
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 135079750.10192,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 6967973.99
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 93207206.71162,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 4753165.9
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 96757402.867,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 4991148.31
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 9871878.65139,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 503423.27
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 10310425.31511,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 531854.52
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 20573554.66224,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 1049162.63
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 20801744.15672,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 1073040.27
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 42911585.84849,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2188305.97
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 44682433.87105,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2304905.34
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 11331468.49184,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 577856.06
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 11832773.79599,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 610383.57
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 95393302.87709,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 4864647.38
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 101298321.25224,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 5225387.72
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 103488076.68578,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 5277445.97
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 108550609.70784,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 5599490.85
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 52641254.79953,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2684477.16
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 55130143.59988,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2843841.55
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 2699298.12562,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 137652.57
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 2699298.12562,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 139241.0
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 51346301.44398,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2618440.12
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 52543709.6055,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2710422.56
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 7894340.97555,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 402577.37
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "90-94",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 90-94",
+    "valueMXN": 7894340.97555,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 407222.86
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 993208947.79618,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 50649376.47
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 1013175595.60748,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 52263801.11
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 29350065.44472,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 1496726.86
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 29687022.2708,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 1531379.79
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 127897250.16082,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 6522208.63
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 130591639.11815,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 6736458.6
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 39196995.68559,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 1998877.87
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 40106037.88076,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2068835.84
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 39223865.10933,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2000248.1
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 39600044.44631,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2042734.6
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 44003488.39557,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2243988.29
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 44182588.08631,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2279121.22
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 68732866.96853,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 3505080.04
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 69915129.79541,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3606512.49
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 75517183.12343,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 3851050.93
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 77131129.41761,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3978743.69
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 185425991.0992,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 9455926.52
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 189380939.17755,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 9769054.63
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 170726446.83374,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 8706313.11
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 175222943.26132,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 9038726.45
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 213134794.97525,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 10868956.12
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 217358122.15326,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 11212233.81
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 4562170.30668,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 232651.03
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 4562170.30668,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 235335.67
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 61375050.81733,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 3129863.12
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 61700055.40939,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3182744.87
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 8666843.62626,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 441971.68
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 8666843.62626,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 447071.75
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 898379604.3225,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 45813488.58
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 930234371.12067,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 47985348.61
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 48376918.36527,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2467014.37
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 49973687.34763,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2577850.15
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 182532724.13438,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 9308382.37
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 188855810.52051,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 9741966.31
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 84202171.67158,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 4293947.92
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 86921017.87403,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 4483746.76
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 16873362.57267,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 860468.78
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 17357696.12846,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 895381.99
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 39942311.70019,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2036885.78
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 40183220.74714,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2072817.26
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 68805102.84381,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 3508763.75
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 71232217.52735,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3674453.34
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 30136256.5151,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 1536819.22
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 31231863.90038,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 1611069.13
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 139623706.65261,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 7120207.38
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 146351982.371,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 7549442.5
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 159029457.98879,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 8109817.08
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 165244083.9241,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 8523975.48
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 128857591.8781,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 6571181.92
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 132882790.78007,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 6854645.71
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 5135082.467,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 261867.08
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 5135082.467,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 264888.86
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 79237489.99011,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 4040770.54
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 80515082.71558,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 4153302.04
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 11409338.48333,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 581827.1
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "85-89",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 85-89",
+    "valueMXN": 11409338.48333,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 588541.02
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 97183865.70053,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 4955958.37
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 106581892.40655,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 5497936.24
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 13883092.1399,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 707977.88
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 15068793.41375,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 777310.89
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 7257728.67061,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 370112.89
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 7882141.57501,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 406593.57
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 33106489.31035,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 1688288.29
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 35770815.7837,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 1845207.1
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 1766093.1358,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 90063.14
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 2070955.82732,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 106828.49
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 887361.85134,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 45251.63
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 943473.88697,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 48668.3
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 5233950.41926,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 266908.92
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 5601090.89142,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 288927.51
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 398881.48186,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 20341.24
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 442814.12331,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 22842.19
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 17724200.22132,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 903857.84
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 19964064.28909,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 1029829.27
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 13493605.8778,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 688115.75
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 14871395.04573,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 767128.26
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 3432462.59229,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 175040.8
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 3966347.57025,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 204600.66
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 0.0,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 0.0
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 0.0,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 0.0
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 4885970.74191,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 249163.45
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 5076077.85377,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 261845.16
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 1288207.8092,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 65693.05
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "Basica Inicial",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Inicial",
+    "valueMXN": 1288207.8092,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 66451.1
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 1216556058.89516,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 62039116.7
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 1249023748.99925,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 64429827.45
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 48299937.64493,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2463088.69
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 49507340.37534,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2553794.03
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 189187642.42544,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 9647754.53
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 194161707.46164,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 10015666.49
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 66344558.01003,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 3383286.57
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 68243387.72883,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3520277.1
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 32100714.10649,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 1636998.09
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 32667979.56039,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 1685149.93
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 60801150.9211,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 3100596.7
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 60821050.93314,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3137402.17
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 57422647.26624,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2928307.57
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 59099669.28175,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3048606.16
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 79518682.28969,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 4055110.14
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 81882951.95042,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 4223862.41
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 256732630.06594,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 13092257.84
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 264008890.16539,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 13618673.99
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 208936823.76556,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 10654877.67
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 215338365.48673,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 11108046.38
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 217211272.39974,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 11076838.9
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 223292406.05562,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 11518348.79
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 6304703.05952,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 321512.69
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 6304703.05952,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 325222.74
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 109706274.1511,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 5594547.24
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 110896169.67312,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 5720484.56
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 14440722.06416,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 736414.6
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "75-79",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 75-79",
+    "valueMXN": 14440722.06416,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 744912.36
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 297144808.35611,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 15153104.79
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 315401474.38873,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 16269716.72
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 36195756.51047,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 1845827.61
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 38134876.15491,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 1967155.14
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 53637654.35361,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2735289.24
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 56576700.34636,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2918460.95
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 71245662.49383,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 3633221.78
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 74787309.7028,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3857839.74
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 5246855.36578,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 267567.01
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 5681802.413,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 293090.94
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 5797288.76986,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 295636.75
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 5958847.05339,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 307382.06
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 15284732.335,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 779455.49
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 16208041.32584,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 836078.02
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 3058345.57223,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 155962.45
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 3238597.64986,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 167060.3
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 54745002.39884,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2791759.22
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 59348377.87448,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3061435.58
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 37863519.36102,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 1930876.33
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 40440795.28603,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2086104.02
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 14069991.19547,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 717508.92
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 15026126.58206,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 775109.96
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 0.0,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 0.0
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 0.0,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 0.0
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 19754794.31389,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 1007409.38
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 20420367.21231,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 1053367.27
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 3775714.91606,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 192545.19
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "95-99",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 95-99",
+    "valueMXN": 3775714.91606,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 194767.04
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 356629840.51214,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 18186585.1
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 356326394.6601,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 18380793.91
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 10212734.91807,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 520805.47
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 10227049.28467,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 527553.64
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 44024323.27586,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2245050.78
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 43677457.05995,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2253064.46
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 12761594.84049,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 650786.35
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 12843868.78721,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 662540.04
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 13462895.50169,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 686549.66
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 13337989.04811,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 688028.82
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 13171882.04222,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 671709.22
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 13077246.13457,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 674578.62
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 42657808.30689,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2175364.41
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 43102022.80603,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2223381.18
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 24045560.6312,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 1226219.98
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 23807760.94652,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 1228103.09
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 63668528.39274,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 3246820.59
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 63669937.31739,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3284359.55
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 58190996.67049,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2967490.08
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 58329832.85367,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3008894.8
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 74433515.93249,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 3795788.57
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 74253230.42198,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3830289.72
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 733940.27116,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 37427.79
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 733940.27116,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 37859.68
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 21363329.54316,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 1089437.75
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 21251682.85896,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 1096249.98
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 2592949.05373,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 132229.23
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 2592949.05373,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 133755.07
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 166855001.11084,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 8508886.06
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 166979316.98344,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 8613486.0
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 5280409.91815,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 269278.15
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 5403868.78375,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 278753.97
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 14917129.54374,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 760709.33
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 14896376.66404,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 768416.92
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 4103325.71142,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 209251.93
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 4130928.021,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 213090.41
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 5543933.00135,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 282716.69
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 5526222.06043,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 285065.46
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 3822432.99381,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 194927.61
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 3860984.96286,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 199165.62
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 54375162.82836,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2772898.99
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 54436656.99584,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2808068.64
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 8279716.47339,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 422229.86
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 8282587.00937,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 427250.2
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 25437450.9244,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 1297200.38
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 25376184.31105,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 1309008.88
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 14542853.33372,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 741622.85
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 14635093.23248,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 754938.83
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 30552586.3825,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 1558050.25
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 30430414.94262,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 1569727.07
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 0.0,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 0.0
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 0.0,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 0.0
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 1072402.57824,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 54687.91
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 1066977.58133,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 55039.13
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 66774.03093,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 3405.19
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 66774.03093,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3444.48
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 1143666345.95543,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 58322055.43
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 1177426826.60321,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 60736561.12
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 49832538.17031,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2541244.71
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 51205774.77487,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2641406.33
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 204114575.25835,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 10408963.78
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 209994463.27462,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 10832385.73
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 72590612.65324,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 3701808.44
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 74701704.0048,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3853423.85
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 24673021.62419,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 1258217.78
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 25194449.40857,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 1299634.24
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 56017580.98235,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 2856655.24
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 56286062.5295,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 2903468.65
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 68577286.9629,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 3497146.13
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 70830028.10531,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3653706.74
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 59066617.11798,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 3012142.95
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 61024009.77435,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 3147871.63
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 221331313.9037,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 11286943.26
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 228619303.67797,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 11793132.28
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 192407344.09596,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 9811945.44
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 198956889.79924,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 10263021.89
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 195055455.18645,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 9946987.69
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 200614141.25398,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 10348509.8
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 6664307.74856,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 339850.98
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 6664307.74856,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 343772.65
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 104651718.70064,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 5336786.7
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 105899639.12729,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 5462742.79
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 14125988.73563,
+    "PeriodYear": "2025",
+    "PeriodMonth": "04",
+    "fx": 19.6095,
+    "valueUSD": 720364.55
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "80-84",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 80-84",
+    "valueMXN": 14125988.73563,
+    "PeriodYear": "2025",
+    "PeriodMonth": "05",
+    "fx": 19.3858,
+    "valueUSD": 728677.11
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 1267248674.60222,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 67288016.62
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 43093723.76317,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 2288178.52
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 183458858.90527,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 9741247.31
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 56826817.14989,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 3017374.48
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 40117182.99274,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 2130130.99
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 58587681.13952,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 3110872.35
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 66239236.45229,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 3517152.5
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 90231603.76745,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 4791092.53
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 259871793.91802,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 13798600.02
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 223027352.78234,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 11842244.16
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 245794423.73153,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 13051123.75
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 6238876.07127,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 331270.1
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 97225717.74307,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 5162464.04
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "70-74",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 70-74",
+    "valueMXN": 12895247.13701,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 684708.24
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 1020350346.76301,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 54178278.08
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 29750776.71603,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 1579698.44
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 132130762.73725,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 7015842.38
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 40009272.80138,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 2124401.21
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 39708087.35925,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 2108408.95
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 44376033.90199,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 2356266.27
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 70274015.04084,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 3731390.05
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 78282288.4159,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 4156611.11
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 190850955.93538,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 10133750.82
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 176670614.90448,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 9380807.03
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 218297538.95051,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 11591101.83
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 4562170.30668,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 242240.85
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 61234605.79639,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 3251418.02
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "65-69",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 65-69",
+    "valueMXN": 8521557.51499,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 452475.28
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 350968744.10594,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 18635640.47
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 10135753.31196,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 538185.4
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 43372841.96606,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 2302999.06
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 12599927.57331,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 669027.44
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 12793522.16138,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 679306.87
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 12950830.29952,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 687659.57
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 43068179.88712,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 2286822.2
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 23294312.85361,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 1236874.93
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 62654510.73361,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 3326811.73
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 57377592.12481,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 3046619.38
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 72721273.19456,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 3861333.88
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 733940.27116,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 38970.56
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 21254361.42646,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 1128558.15
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "60-64",
+    "Concept_Section": "Estado de Situación Financiera de la Siefore Básica 60-64",
+    "valueMXN": 2506189.31051,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 133072.94
+  },
+  {
+    "Afore": "Total de Activo",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 162409442.73385,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 8623571.29
+  },
+  {
+    "Afore": "Azteca",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 5243827.42077,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 278435.29
+  },
+  {
+    "Afore": "Banamex",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 14392134.45833,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 764189.54
+  },
+  {
+    "Afore": "Coppel",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 3957304.77603,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 210123.87
+  },
+  {
+    "Afore": "Inbursa",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 5187915.06969,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 275466.47
+  },
+  {
+    "Afore": "Invercap",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 3670623.735,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 194901.76
+  },
+  {
+    "Afore": "PensionISSSTE",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 54233633.38722,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 2879682.34
+  },
+  {
+    "Afore": "Principal",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 7873110.38454,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 418044.22
+  },
+  {
+    "Afore": "Profuturo",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 24769464.36637,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 1315202.11
+  },
+  {
+    "Afore": "SURA",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 13750244.58254,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 730106.65
+  },
+  {
+    "Afore": "XXI Banorte",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 29331184.55336,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 1557419.06
+  },
+  {
+    "Afore": "Inversiones Tercerizadas",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 0.0,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 0.0
+  },
+  {
+    "Afore": "Inversión en títulos Fiduciarios",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 1066851.21265,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 56647.37
+  },
+  {
+    "Afore": "Inversión en Fondos Mutuos",
+    "Siefore": "Pensiones",
+    "Concept_Section": "Estado de Situación Financiera de las Siefore Básica Pensiones",
+    "valueMXN": 61261.40982,
+    "PeriodYear": "2025",
+    "PeriodMonth": "06",
+    "fx": 18.8332,
+    "valueUSD": 3252.84
+  }
+]

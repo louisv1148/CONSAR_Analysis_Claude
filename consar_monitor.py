@@ -250,46 +250,124 @@ class ConsarMonitor:
         run_dir = Path(self.config.TEMP_DIR) / f"run_{run_id}"
         run_dir.mkdir(parents=True, exist_ok=True)
         
+        # Get Python interpreter paths
+        venv_python = "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3"
+        system_python = "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3"
+        
         try:
-            # Step 1: Download HTML files
+            # Step 1: Download HTML files (needs selenium from venv)
+            print("🌐 STEP 1: Starting CONSAR HTML download...")
+            print("   → Opening browser and navigating to CONSAR website...")
             self.logger.info("Step 1: Downloading CONSAR HTML files...")
-            result = subprocess.run([
-                "python3", self.config.DOWNLOADER_PATH
-            ], capture_output=True, text=True, timeout=1800)  # 30 min timeout
             
-            if result.returncode != 0:
-                raise Exception(f"Download failed: {result.stderr}")
+            # Check if demo mode is enabled
+            demo_mode = hasattr(self, '_demo_mode') and self._demo_mode
+            
+            if demo_mode:
+                # Use mock downloader for demonstration
+                process = subprocess.Popen([
+                    system_python, "/Users/lvc/CONSAR_Analysis_Claude/mock_downloader.py"
+                ], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, 
+                bufsize=1, universal_newlines=True)
+            else:
+                # Run with real-time output
+                process = subprocess.Popen([
+                    venv_python, self.config.DOWNLOADER_PATH
+                ], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, 
+                cwd="/Users/lvc/Consar_downloader_2.0", bufsize=1, universal_newlines=True)
+            
+            print("   → Downloader process started, monitoring progress...")
+            output_lines = []
+            while True:
+                output = process.stdout.readline()
+                if output == '' and process.poll() is not None:
+                    break
+                if output:
+                    line = output.strip()
+                    output_lines.append(line)
+                    print(f"   → {line}")
+            
+            process.wait()
+            if process.returncode != 0:
+                raise Exception(f"Download failed with return code {process.returncode}")
+            print("✅ STEP 1 COMPLETED: HTML files downloaded successfully")
+            self.logger.info("Step 1 completed successfully")
                 
-            # Step 2: Process HTML to JSON
+            # Step 2: Process HTML to JSON (uses system python)
+            print("\n📊 STEP 2: Converting HTML files to JSON...")
+            print("   → Processing downloaded HTML files...")
             self.logger.info("Step 2: Processing HTML files to JSON...")
-            result = subprocess.run([
-                "python3", self.config.PROCESSOR_PATH
-            ], capture_output=True, text=True, timeout=600)  # 10 min timeout
             
-            if result.returncode != 0:
-                raise Exception(f"Processing failed: {result.stderr}")
+            process = subprocess.Popen([
+                system_python, self.config.PROCESSOR_PATH
+            ], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True,
+            cwd="/Users/lvc/Consar_report_processing", bufsize=1, universal_newlines=True)
+            
+            while True:
+                output = process.stdout.readline()
+                if output == '' and process.poll() is not None:
+                    break
+                if output:
+                    print(f"   → {output.strip()}")
+            
+            process.wait()
+            if process.returncode != 0:
+                raise Exception(f"Processing failed with return code {process.returncode}")
+            print("✅ STEP 2 COMPLETED: JSON processing finished")
+            self.logger.info("Step 2 completed successfully")
                 
-            # Step 3: Update FX rates
+            # Step 3: Update FX rates (uses system python)
+            print("\n💱 STEP 3: Updating foreign exchange rates...")
+            print("   → Downloading latest FX data from Banxico...")
             self.logger.info("Step 3: Updating FX rates...")
-            result = subprocess.run([
-                "python3", self.config.FX_DOWNLOADER_PATH
-            ], capture_output=True, text=True, timeout=300)  # 5 min timeout
             
-            if result.returncode != 0:
-                raise Exception(f"FX download failed: {result.stderr}")
+            process = subprocess.Popen([
+                system_python, self.config.FX_DOWNLOADER_PATH
+            ], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True,
+            cwd="/Users/lvc/Banxico_FX_Update", bufsize=1, universal_newlines=True)
+            
+            while True:
+                output = process.stdout.readline()
+                if output == '' and process.poll() is not None:
+                    break
+                if output:
+                    print(f"   → {output.strip()}")
+            
+            process.wait()
+            if process.returncode != 0:
+                raise Exception(f"FX download failed with return code {process.returncode}")
+            print("✅ STEP 3 COMPLETED: FX rates updated")
+            self.logger.info("Step 3 completed successfully")
                 
-            # Step 4: Convert to USD
+            # Step 4: Convert to USD (uses system python)
+            print("\n💵 STEP 4: Converting values to USD...")
+            print("   → Applying exchange rates to portfolio data...")
             self.logger.info("Step 4: Converting to USD...")
-            result = subprocess.run([
-                "python3", self.config.USD_CONVERTER_PATH
-            ], capture_output=True, text=True, timeout=600)  # 10 min timeout
             
-            if result.returncode != 0:
-                raise Exception(f"USD conversion failed: {result.stderr}")
+            process = subprocess.Popen([
+                system_python, self.config.USD_CONVERTER_PATH
+            ], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True,
+            cwd="/Users/lvc/Banxico_FX_Update", bufsize=1, universal_newlines=True)
+            
+            while True:
+                output = process.stdout.readline()
+                if output == '' and process.poll() is not None:
+                    break
+                if output:
+                    print(f"   → {output.strip()}")
+            
+            process.wait()
+            if process.returncode != 0:
+                raise Exception(f"USD conversion failed with return code {process.returncode}")
+            print("✅ STEP 4 COMPLETED: USD conversion finished")
+            self.logger.info("Step 4 completed successfully")
                 
             self.logger.info("Processing pipeline completed successfully")
             return run_dir
             
+        except subprocess.TimeoutExpired as e:
+            self.logger.error(f"Processing pipeline timed out at step: {e}")
+            return None
         except Exception as e:
             self.logger.error(f"Processing pipeline failed: {e}")
             return None
@@ -445,46 +523,67 @@ Processed at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
         
     def run_daily_check(self):
         """Main daily monitoring routine."""
+        print("🔍 CONSAR MONITORING: Starting daily check...")
         self.logger.info("Starting daily CONSAR monitoring check")
         
         try:
             # Clean up old backups
+            print("🧹 Cleaning up old backup files...")
             self.cleanup_old_backups()
             
             # Check for updates
+            print("🌐 Checking CONSAR website for new data periods...")
             updates = self.check_for_updates()
             
             if not updates:
+                print("✅ No new data detected - monitoring complete")
                 self.logger.info("No updates detected")
                 return
                 
+            print(f"🚨 NEW DATA DETECTED! Found {len(updates)} changes")
             self.logger.info(f"Updates detected: {len(updates)} URLs changed")
             
             # Create backup before processing
+            print("💾 Creating database backup before processing...")
             backup_path = self.create_database_backup()
             if not backup_path:
+                print("❌ Failed to create backup - aborting for safety")
                 self.logger.error("Failed to create backup - aborting")
                 return
+            print(f"✅ Backup created: {backup_path.name}")
                 
             # Run processing pipeline
+            print("\n🔄 STARTING DATA PROCESSING PIPELINE...")
+            print("=" * 60)
             run_dir = self.run_processing_pipeline()
             if not run_dir:
+                print("❌ Processing pipeline failed")
                 self.logger.error("Processing pipeline failed")
                 return
+            print("=" * 60)
+            print("🎉 ALL PROCESSING STEPS COMPLETED!")
                 
             # Extract new records
+            print("\n🔍 Analyzing processed data for new records...")
             new_records = self.extract_new_records(run_dir)
             if not new_records:
+                print("ℹ️  No new records found after processing")
                 self.logger.info("No new records found after processing")
                 return
+            print(f"📊 Found {len(new_records)} new records for approval")
                 
             # Send approval email
+            print("\n📧 Sending approval email...")
             run_id = run_dir.name.replace("run_", "")
             if self.send_approval_email(new_records, run_id):
+                print("✅ Approval email sent successfully!")
+                print(f"📝 Approval ID: {run_id}")
+                print("⏳ Waiting for human approval to merge data...")
                 self.logger.info("Approval email sent successfully")
                 self.state["last_data_update"] = datetime.now().isoformat()
                 self.save_monitor_state()
             else:
+                print("❌ Failed to send approval email")
                 self.logger.error("Failed to send approval email")
                 
         except Exception as e:
@@ -659,6 +758,10 @@ def main():
                        help='Review pending records by approval ID')
     parser.add_argument('--list-pending', action='store_true',
                        help='List all pending approvals')
+    parser.add_argument('--test-pipeline', action='store_true',
+                       help='Test the processing pipeline without checking for updates')
+    parser.add_argument('--demo-mode', action='store_true',
+                       help='Demo mode using mock downloader for demonstration')
     
     args = parser.parse_args()
     
@@ -676,6 +779,29 @@ def main():
     elif args.list_pending:
         # List pending approvals
         monitor.list_pending_approvals()
+    elif args.demo_mode:
+        # Demo mode with mock downloader
+        print("🎬 DEMO MODE: Running pipeline with mock downloader...")
+        monitor._demo_mode = True
+        backup_path = monitor.create_database_backup()
+        if backup_path:
+            print(f"✅ Backup created: {backup_path.name}")
+            run_dir = monitor.run_processing_pipeline()
+            if run_dir:
+                print("🎉 Demo pipeline completed successfully!")
+            else:
+                print("❌ Demo pipeline failed")
+    elif args.test_pipeline:
+        # Test pipeline without update check
+        print("🧪 TESTING MODE: Running processing pipeline...")
+        backup_path = monitor.create_database_backup()
+        if backup_path:
+            print(f"✅ Backup created: {backup_path.name}")
+            run_dir = monitor.run_processing_pipeline()
+            if run_dir:
+                print("🎉 Pipeline test completed successfully!")
+            else:
+                print("❌ Pipeline test failed")
     elif args.run_once:
         # Run single check
         monitor.run_daily_check()
