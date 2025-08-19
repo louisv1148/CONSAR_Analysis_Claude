@@ -7,7 +7,7 @@ Analyzes growth in:
 - Third Party Mandates (Inversiones Tercerizadas)  
 - Total Active Management (sum of both)
 
-Across different time periods: YTD, 1Y, 3Y, 5Y
+Across different time periods: MoM, YTD, 1Y, 3Y, 5Y
 """
 
 import json
@@ -137,6 +137,15 @@ class GrowthAnalyzer:
         # Define comparison periods
         periods = []
         
+        # MoM: Previous month
+        if latest_month == 1:  # If January, compare to December of previous year
+            mom_year = latest_year - 1
+            mom_month = 12
+        else:  # Otherwise, compare to previous month
+            mom_year = latest_year
+            mom_month = latest_month - 1
+        periods.append(('MoM', mom_year, mom_month))
+        
         # YTD: December of previous year
         if latest_month != 12:  # If not December, compare to Dec of previous year
             ytd_year = latest_year - 1 if latest_month <= 12 else latest_year
@@ -199,7 +208,7 @@ class GrowthAnalyzer:
         # Create summary by period
         periods = df['Period'].unique()
         
-        for period in ['YTD', '1Y', '3Y', '5Y']:
+        for period in ['MoM', 'YTD', '1Y', '3Y', '5Y']:
             if period not in periods:
                 continue
                 

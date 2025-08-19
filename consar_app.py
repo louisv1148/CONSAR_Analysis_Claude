@@ -217,11 +217,11 @@ def main():
                             periods = growth_df['Period'].unique()
                             
                             # Create tabs for different time periods
-                            tab_cols = st.tabs([f"{period} Growth" for period in ['YTD', '1Y', '3Y', '5Y'] if period in periods])
+                            available_periods = [period for period in ['MoM', 'YTD', '1Y', '3Y', '5Y'] if period in periods]
+                            tab_cols = st.tabs([f"{period} Growth" for period in available_periods])
                             
-                            for i, period in enumerate(['YTD', '1Y', '3Y', '5Y']):
-                                if period in periods:
-                                    with tab_cols[i]:
+                            for i, period in enumerate(available_periods):
+                                with tab_cols[i]:
                                         period_df = growth_df[growth_df['Period'] == period].copy()
                                         
                                         # Industry totals
@@ -262,31 +262,98 @@ def main():
                                                 f"{active_growth:+.1f}%"
                                             )
                                         
-                                        # Afore-level data
+                                        # Separate tables for each concept
                                         st.markdown(f"#### 🏦 Afore Performance - {period}")
                                         
-                                        # Create display dataframe
-                                        display_df = period_df[['Afore', 'mutual_funds_current', 'mutual_funds_growth_rate', 
-                                                              'third_party_current', 'third_party_growth_rate',
-                                                              'total_active_current', 'total_active_growth_rate']].copy()
+                                        # 1. Mutual Funds Table
+                                        st.markdown("##### 💰 Mutual Funds")
+                                        mf_df = period_df[['Afore', 'mutual_funds_current', 'mutual_funds_absolute_change', 'mutual_funds_growth_rate']].copy()
+                                        mf_df.columns = ['Afore', 'Current (USD)', 'Change (USD)', 'Growth %']
                                         
-                                        # Rename columns for display
-                                        display_df.columns = ['Afore', 'MF Current (USD)', 'MF Growth %', 
-                                                            'TP Current (USD)', 'TP Growth %', 
-                                                            'Total Current (USD)', 'Total Growth %']
+                                        # Format columns
+                                        mf_df['Current (USD)'] = mf_df['Current (USD)'].apply(lambda x: f"${x/1e6:,.0f}M" if x > 0 else "$0")
+                                        mf_df['Change (USD)'] = mf_df['Change (USD)'].apply(lambda x: f"${x/1e6:+,.0f}M" if abs(x) > 0 else "$0")
+                                        mf_df['Growth %'] = mf_df['Growth %'].apply(lambda x: "NEW" if x == float('inf') else f"{x:+.1f}%" if pd.notna(x) else "0.0%")
                                         
-                                        # Format the display dataframe
-                                        for col in ['MF Current (USD)', 'TP Current (USD)', 'Total Current (USD)']:
-                                            display_df[col] = display_df[col].apply(lambda x: f"${x/1e6:,.0f}M" if x > 0 else "$0")
+                                        # Sort by growth rate and show all Afores
+                                        # Sort by original numeric growth rate from period_df
+                                        period_df_mf = period_df.sort_values('mutual_funds_growth_rate', ascending=False)
+                                        mf_df_sorted = mf_df.loc[period_df_mf.index]
                                         
-                                        for col in ['MF Growth %', 'TP Growth %', 'Total Growth %']:
-                                            display_df[col] = display_df[col].apply(lambda x: "NEW" if x == float('inf') else f"{x:+.1f}%" if pd.notna(x) else "0.0%")
+                                        # Add industry total row
+                                        total_mf_current = period_df['mutual_funds_current'].sum()
+                                        total_mf_change = period_df['mutual_funds_absolute_change'].sum()
+                                        total_mf_growth = ((total_mf_current - (total_mf_current - total_mf_change)) / (total_mf_current - total_mf_change) * 100) if (total_mf_current - total_mf_change) > 0 else 0
                                         
-                                        # Sort by total active management growth
-                                        period_df_sorted = period_df.sort_values('total_active_growth_rate', ascending=False)
-                                        display_df_sorted = display_df.loc[period_df_sorted.index]
+                                        industry_row_mf = pd.DataFrame({
+                                            'Afore': ['**INDUSTRY TOTAL**'],
+                                            'Current (USD)': [f"${total_mf_current/1e6:,.0f}M"],
+                                            'Change (USD)': [f"${total_mf_change/1e6:+,.0f}M" if abs(total_mf_change) > 0 else "$0"],
+                                            'Growth %': [f"{total_mf_growth:+.1f}%" if total_mf_growth != 0 else "0.0%"]
+                                        })
                                         
-                                        st.dataframe(display_df_sorted, use_container_width=True, hide_index=True)
+                                        mf_df_with_total = pd.concat([mf_df_sorted, industry_row_mf], ignore_index=True)
+                                        st.dataframe(mf_df_with_total, use_container_width=True, hide_index=True)
+                                        
+                                        # 2. Third Party Mandates Table  
+                                        st.markdown("##### 🤝 Third Party Mandates")
+                                        tp_df = period_df[['Afore', 'third_party_current', 'third_party_absolute_change', 'third_party_growth_rate']].copy()
+                                        tp_df.columns = ['Afore', 'Current (USD)', 'Change (USD)', 'Growth %']
+                                        
+                                        # Format columns
+                                        tp_df['Current (USD)'] = tp_df['Current (USD)'].apply(lambda x: f"${x/1e6:,.0f}M" if x > 0 else "$0")
+                                        tp_df['Change (USD)'] = tp_df['Change (USD)'].apply(lambda x: f"${x/1e6:+,.0f}M" if abs(x) > 0 else "$0")
+                                        tp_df['Growth %'] = tp_df['Growth %'].apply(lambda x: "NEW" if x == float('inf') else f"{x:+.1f}%" if pd.notna(x) else "0.0%")
+                                        
+                                        # Sort by growth rate and show all Afores
+                                        # Sort by original numeric growth rate from period_df
+                                        period_df_tp = period_df.sort_values('third_party_growth_rate', ascending=False)
+                                        tp_df_sorted = tp_df.loc[period_df_tp.index]
+                                        
+                                        # Add industry total row
+                                        total_tp_current = period_df['third_party_current'].sum()
+                                        total_tp_change = period_df['third_party_absolute_change'].sum()
+                                        total_tp_growth = ((total_tp_current - (total_tp_current - total_tp_change)) / (total_tp_current - total_tp_change) * 100) if (total_tp_current - total_tp_change) > 0 else 0
+                                        
+                                        industry_row_tp = pd.DataFrame({
+                                            'Afore': ['**INDUSTRY TOTAL**'],
+                                            'Current (USD)': [f"${total_tp_current/1e6:,.0f}M"],
+                                            'Change (USD)': [f"${total_tp_change/1e6:+,.0f}M" if abs(total_tp_change) > 0 else "$0"],
+                                            'Growth %': [f"{total_tp_growth:+.1f}%" if total_tp_growth != 0 else "0.0%"]
+                                        })
+                                        
+                                        tp_df_with_total = pd.concat([tp_df_sorted, industry_row_tp], ignore_index=True)
+                                        st.dataframe(tp_df_with_total, use_container_width=True, hide_index=True)
+                                        
+                                        # 3. Total Active Management Table
+                                        st.markdown("##### 📊 Total Active Management")
+                                        total_df = period_df[['Afore', 'total_active_current', 'total_active_absolute_change', 'total_active_growth_rate']].copy()
+                                        total_df.columns = ['Afore', 'Current (USD)', 'Change (USD)', 'Growth %']
+                                        
+                                        # Format columns
+                                        total_df['Current (USD)'] = total_df['Current (USD)'].apply(lambda x: f"${x/1e6:,.0f}M" if x > 0 else "$0")
+                                        total_df['Change (USD)'] = total_df['Change (USD)'].apply(lambda x: f"${x/1e6:+,.0f}M" if abs(x) > 0 else "$0")
+                                        total_df['Growth %'] = total_df['Growth %'].apply(lambda x: "NEW" if x == float('inf') else f"{x:+.1f}%" if pd.notna(x) else "0.0%")
+                                        
+                                        # Sort by growth rate and show all Afores
+                                        # Sort by original numeric growth rate from period_df
+                                        period_df_total = period_df.sort_values('total_active_growth_rate', ascending=False)
+                                        total_df_sorted = total_df.loc[period_df_total.index]
+                                        
+                                        # Add industry total row
+                                        total_active_current = period_df['total_active_current'].sum()
+                                        total_active_change = period_df['total_active_absolute_change'].sum()
+                                        total_active_growth = ((total_active_current - (total_active_current - total_active_change)) / (total_active_current - total_active_change) * 100) if (total_active_current - total_active_change) > 0 else 0
+                                        
+                                        industry_row_total = pd.DataFrame({
+                                            'Afore': ['**INDUSTRY TOTAL**'],
+                                            'Current (USD)': [f"${total_active_current/1e6:,.0f}M"],
+                                            'Change (USD)': [f"${total_active_change/1e6:+,.0f}M" if abs(total_active_change) > 0 else "$0"],
+                                            'Growth %': [f"{total_active_growth:+.1f}%" if total_active_growth != 0 else "0.0%"]
+                                        })
+                                        
+                                        total_df_with_total = pd.concat([total_df_sorted, industry_row_total], ignore_index=True)
+                                        st.dataframe(total_df_with_total, use_container_width=True, hide_index=True)
                                         
                                         # Download option for this period
                                         st.markdown("**Download:**")
