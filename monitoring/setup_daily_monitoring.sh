@@ -24,7 +24,7 @@ cd /Users/lvc/CONSAR_Analysis_Claude
 echo "=== DAILY MONITOR RUN: $(date) ===" >> logs/daily_monitor.log
 
 # Run the monitoring check
-python3 consar_monitor.py --run-once >> logs/daily_monitor.log 2>&1
+python3 monitoring/consar_monitor.py --run-once >> logs/daily_monitor.log 2>&1
 
 # Log completion
 echo "=== COMPLETED: $(date) ===" >> logs/daily_monitor.log

@@ -13,7 +13,10 @@ import sys
 def validate_definitive_database():
     """Validate the definitive database integrity."""
     
-    database_path = Path('data/merged_consar_data_2019_2025.json')
+    # Find the project root directory (where data folder is located)
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent.parent
+    database_path = project_root / 'data/merged_consar_data_2019_2025.json'
     
     print("🔍 VALIDATING DEFINITIVE CONSAR DATABASE")
     print("=" * 50)

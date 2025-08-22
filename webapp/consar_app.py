@@ -17,12 +17,42 @@ from pathlib import Path
 import sys
 import base64
 
-# Add current directory to path for imports
-sys.path.append('.')
+# Add parent directory to path for imports
+import os
+import importlib.util
 
-# Import existing analyzers
-from generate_professional_tables import ProfessionalAUMAnalyzer
-from growth_analysis import GrowthAnalyzer
+# Get the current working directory and find project root
+current_dir = Path.cwd()
+if current_dir.name == 'webapp':
+    project_root = current_dir.parent
+else:
+    project_root = current_dir
+
+sys.path.insert(0, str(project_root))
+
+# Try standard imports first, fall back to importlib if needed
+try:
+    from scripts.analysis.generate_professional_tables import ProfessionalAUMAnalyzer
+    from scripts.analysis.growth_analysis import GrowthAnalyzer
+except ImportError:
+    # Fall back to direct file imports
+    # Load ProfessionalAUMAnalyzer
+    spec1 = importlib.util.spec_from_file_location(
+        "generate_professional_tables", 
+        project_root / "scripts/analysis/generate_professional_tables.py"
+    )
+    prof_tables_module = importlib.util.module_from_spec(spec1)
+    spec1.loader.exec_module(prof_tables_module)
+    ProfessionalAUMAnalyzer = prof_tables_module.ProfessionalAUMAnalyzer
+
+    # Load GrowthAnalyzer
+    spec2 = importlib.util.spec_from_file_location(
+        "growth_analysis", 
+        project_root / "scripts/analysis/growth_analysis.py"
+    )
+    growth_module = importlib.util.module_from_spec(spec2)
+    spec2.loader.exec_module(growth_module)
+    GrowthAnalyzer = growth_module.GrowthAnalyzer
 
 # Configure Streamlit page
 st.set_page_config(
@@ -62,7 +92,7 @@ st.markdown("""
 @st.cache_data
 def load_consar_data():
     """Load and cache the CONSAR database."""
-    database_path = Path('data/merged_consar_data_2019_2025.json')
+    database_path = Path('../data/merged_consar_data_2019_2025.json')
     if not database_path.exists():
         st.error(f"Database file not found: {database_path}")
         return None
@@ -205,7 +235,7 @@ def main():
                 
                 with st.spinner("Calculating growth rates..."):
                     try:
-                        analyzer_growth = GrowthAnalyzer('data/merged_consar_data_2019_2025.json')
+                        analyzer_growth = GrowthAnalyzer('../data/merged_consar_data_2019_2025.json')
                         growth_df = analyzer_growth.run_analysis()
                         
                         if growth_df is not None and not growth_df.empty:
@@ -391,7 +421,7 @@ def main():
                     # Note: Values converted from thousands to millions for display
                     try:
                         # Create custom analyzer for the selected period
-                        analyzer_pro = ProfessionalAUMAnalyzer('data/merged_consar_data_2019_2025.json')
+                        analyzer_pro = ProfessionalAUMAnalyzer('../data/merged_consar_data_2019_2025.json')
                         analyzer_pro.load_data()
                         
                         # Create AUM table for selected period
@@ -430,7 +460,7 @@ def main():
                     st.markdown('<div class="sub-header">🤝 Third Party Mandates</div>', unsafe_allow_html=True)
                     
                     try:
-                        analyzer_pro = ProfessionalAUMAnalyzer('data/merged_consar_data_2019_2025.json')
+                        analyzer_pro = ProfessionalAUMAnalyzer('../data/merged_consar_data_2019_2025.json')
                         analyzer_pro.load_data()
                         
                         tp_df = analyzer_pro.create_third_party_mandates_table(selected_period)
@@ -468,7 +498,7 @@ def main():
                     st.markdown('<div class="sub-header">📊 Total Active Management</div>', unsafe_allow_html=True)
                     
                     try:
-                        analyzer_pro = ProfessionalAUMAnalyzer('data/merged_consar_data_2019_2025.json')
+                        analyzer_pro = ProfessionalAUMAnalyzer('../data/merged_consar_data_2019_2025.json')
                         analyzer_pro.load_data()
                         
                         active_df = analyzer_pro.create_total_active_management_table(selected_period)

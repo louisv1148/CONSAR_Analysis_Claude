@@ -17,7 +17,7 @@ echo "=== DAILY MONITOR RUN: $(date) ===" >> logs/daily_monitor.log
 # Use absolute path for python and ensure packages are available
 export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:$PATH"
 pip3 install requests beautifulsoup4 >/dev/null 2>&1
-python3 consar_monitor.py --run-once >> logs/daily_monitor.log 2>&1
+python3 monitoring/consar_monitor.py --run-once >> logs/daily_monitor.log 2>&1
 
 # Log completion
 echo "=== COMPLETED: $(date) ===" >> logs/daily_monitor.log

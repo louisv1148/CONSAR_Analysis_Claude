@@ -22,7 +22,7 @@ import argparse
 class DataSyncer:
     """Handles syncing data from processing pipeline to analysis project."""
     
-    def __init__(self, config_file="sync_config.json"):
+    def __init__(self, config_file="config/sync_config.json"):
         self.config_file = Path(config_file)
         self.config = self.load_config()
         self.data_dir = Path("data")

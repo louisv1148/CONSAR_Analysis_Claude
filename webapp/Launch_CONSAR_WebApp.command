@@ -28,7 +28,7 @@ source venv/bin/activate
 # Check if required packages are installed
 if ! python -c "import streamlit" 2>/dev/null; then
     echo "📦 Installing required packages..."
-    pip install -r requirements_app.txt
+    pip install -r config/requirements/webapp.txt
 fi
 
 # Start the web app
@@ -41,7 +41,7 @@ echo "🛑 To stop the app: Close this window or press Ctrl+C"
 echo "==============================================="
 
 # Launch Streamlit app
-streamlit run consar_app.py
+streamlit run webapp/consar_app.py
 
 echo ""
 echo "👋 CONSAR Analysis Web App stopped"
